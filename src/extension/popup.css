@@ -1,0 +1,77 @@
+/* Header tweaks */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;      /* allow wrapping on narrow popups */
+    gap: 8px;             /* space between elements */
+    margin-bottom: var(--padding);
+  }
+  
+  /* Header controls (search, buttons) */
+  .header .header-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;             /* tighter gaps for compactness */
+  }
+  
+  /* Table styling */
+  .cookie-table {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    width: 100%;
+    table-layout: auto;
+  }
+  .cookie-table th {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ddd;
+  }
+  .cookie-table td {
+    padding: 10px 8px;
+  }
+  .cookie-table tr:hover {
+    background: rgba(0, 0, 0, 0.03);
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background: none;
+    border: none;
+    color: #c62828;
+    font-size: 1rem;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+  .delete-btn:hover {
+    color: #b71c1c;
+  }
+  
+  /* Marker dot */
+  .cookie-marker {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+
+    /* Summary tiles above chart */
+  .summary-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .summary-tiles .tile {
+    background: var(--surface);
+    padding: 6px 10px;
+    border-radius: var(--radius);
+    box-shadow: 0 1px 4px var(--shadow);
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  }
